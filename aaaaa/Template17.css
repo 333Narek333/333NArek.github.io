@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script&family=Delicious+Handrawn&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.THEWHOLETHING{
+    width: 70%;
+    height: 3000px;
+    margin: auto;
+}
+
+
+
+body{
+    background-color: rgb(58, 58, 58);}
+
+
+
+/*-Header Start--------------------------------------------------------------------------------*/
+
+
+
+/* .Header{
+    width: 100%;
+    height: 950px;
+    background-color: red;
+    background-image: url(imgRANDOM/Rectangle\ 3.png);
+    background-image: url(img/VIEWPIC-2dfla.jpg);
+    background-size: cover; 
+} */
+
+
+
+.HeaderofHeader{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+
+.HeaderofHeaderLogo{
+    width: 200px;
+    height: 110px;
+    background-image: url(img/DiceLogo.jpg);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+
+
+.HeaderofHeaderTextMainBox{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    margin-left: 830px;
+    margin-top: 30px;
+}
+
+
+
+.HeaderofHeaderText1Box{
+    width: 80px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+
+
+.HeaderofHeaderText1{
+    color: #000000;
+    font-family: 'Agbalumo';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+.HeaderofHeaderText1:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+
+.HeaderofHeaderText2Box{
+    width: 80px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+
+
+.HeaderofHeaderText2{
+    color: #000000;
+    font-family: 'Agbalumo';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-top: 15px;
+
+}
+.HeaderofHeaderText2:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+
+
+
+.HeaderRunningLine{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    padding-bottom: 50px;
+}
+.HeaderRunningLine:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+
+.marquee {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #ff0006;
+    font-size: 12px;
+
+}
+ 
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    -webkit-animation: scroll 50s infinite linear;
+    -moz-animation: scroll 50s infinite linear;
+    animation: scroll 50s infinite linear;
+}
+
+
+
+.w3-content{
+    background-color: white;
+}
+
+
+
+.mySlides{
+    height: 780px;
+    background-size: cover;
+    margin: auto;
+}
+
+
+/*-Header End----------------------------------------------------------------------------------*/
+
+
+
+/*---Body 1 Start------------------------------------------------------------------------------*/
+
+
+
+.Body1{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.Body1Header{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: -.1px auto;
+}
+
+
+
+.Body1HeaderofHeader{
+    width: 400px;
+    height: 200px;
+    background-image: url(img/ONEdie-2dfla.jpg);
+    background-size: cover;
+    
+}
+
+
+
+.Body1MainBody{
+    width: 1300px;
+    height: 490px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.Body1MainBodyB1{
+    width: 380px;
+    height: 490px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.Body1MainBodyB1Pic{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    background-image: url(img/6FaceWhiteFront.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.Body1MainBodyB1Pic:hover{
+    background-image: url(img/6FaceWhiteBack.jpg);
+}
+
+
+
+.Body1MainBodyB2Pic{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    background-image: url(img/6FaceBlackFront.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.Body1MainBodyB2Pic:hover{
+    background-image: url(img/6FaceBlackBack.jpg);
+}
+
+
+
+.Body1MainBodyB1Texts{
+    font-family: 'Agbalumo';
+    color: black;
+    font-size: 15px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+
+/*---Body 1 End--------------------------------------------------------------------------------*/
+
+
+
+/*---Body 2 Start------------------------------------------------------------------------------*/
+
+
+
+.Body2{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.Body2Header{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: -.1px auto;
+}
+
+
+
+.Body2HeaderofHeader{
+    width: 400px;
+    height: 210px;
+    background-image: url(img/DiceLogo.jpg);
+    background-size: cover;
+    
+}
+
+
+
+.Body2MainBody{
+    width: 1300px;
+    height: 490px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.Body2MainBodyB1{
+    width: 380px;
+    height: 490px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.Body2MainBodyB1Pic{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    background-image: url(img/2dieforlaWhiteFront.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.Body2MainBodyB1Pic:hover{
+    background-image: url(img/2dieforlaWhiteBack.jpg);
+}
+
+
+
+.Body2MainBodyB2Pic{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    background-image: url(img/2dieforlaBlackFront.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.Body2MainBodyB2Pic:hover{
+    background-image: url(img/2dieforlaBlackBack.jpg);
+}
+
+
+
+.Body2MainBodyB1Texts{
+    font-family: 'Agbalumo';
+    color: black;
+    font-size: 15px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+
+
+/*---Body 2 End--------------------------------------------------------------------------------*/
+
+
+
+/*---Body 3 Start------------------------------------------------------------------------------*/
+
+
+
+.Body3{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.Body3Header{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: -.1px auto;
+}
+
+
+
+.Body3HeaderofHeader{
+    width: 400px;
+    height: 210px;
+    background-image: url(img/DiceLogo.jpg);
+    background-size: cover;
+    
+}
+
+
+
+.Body3MainBody{
+    width: 1300px;
+    height: 490px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.Body3MainBodyB1{
+    width: 420px;
+    height: 490px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.Body3MainBodyB1Pic{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    background-image: url(img/viber_image_2023-11-22_22-36-32-173.jpg);
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.Body3MainBodyB1Pic:hover{
+    background-image: url(img/viber_image_2023-11-22_22-36-31-392.jpg);
+}
+
+
+
+.Body3MainBodyB1Texts{
+    font-family: 'Agbalumo';
+    color: black;
+    font-size: 15px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+
+/*---Body 3 End--------------------------------------------------------------------------------*/
+
+
+
+/*---Footer Start------------------------------------------------------------------------------*/
+
+
+
+.Footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(58, 58, 58);
+}
+.Footer:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+.footer-basic {
+    padding:40px 0;
+    background-color: rgb(58, 58, 58);
+    color:#000000;
+}
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.footer-basic li {
+    padding:0 10px;
+}
+  
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer-basic ul a:hover {
+    opacity:1;
+}
+  
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+}
+  
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer-basic .social > a:hover {
+    opacity:0.9;
+}
+  
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
+
+
+
+.IGLogoBox{
+    width: 40px;
+    height: 40px;
+    background-image: url(img/instagramLogo.jpg);
+    background-size: contain;
+    border-radius: 100%;
+}
+
+
+
+.MailLogoBox{
+    width: 40px;
+    height: 40px;
+    background-image: url(img/MailLogo.jpg);
+    background-size: contain;
+    border-radius: 100%;
+}
+
+
+
+.list-inline{
+    font-family: 'Agbalumo';
+}
+
+
+
+/*---Footer End--------------------------------------------------------------------------------*/
+
+
+
+.FinalText{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: white;
+    font-family: 'Agbalumo';
+}
+
+
+
+
+
+
+/*---Phone Site--------------------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 480px) { 
+
+
+
+
+    .THEWHOLETHING{
+        width: 480px;
+    }
+
+
+
+    .Header{
+        height: 130px;
+        background-position: center;
+ 
+    }
+
+
+
+    .Body1MainBody{
+        height: ;
+        width: 480px;
+        flex-wrap: wrap
+    }
+
+
+ 
+    .Body2MainBody{
+        height: ;
+        width: 480px;
+        flex-wrap: wrap
+    } 
+    
+
+    
+    .Body3MainBody{
+        height: ;
+        width: 480px;
+    }
+
+
+    
+    .HeaderofHeaderTextMainBox{
+        margin-left: 130px;
+    }
+
+
+
+    .HeaderofHeaderLogo{
+        width: 126px;
+        height: 67px;
+        margin-top: 25px;
+    }
+
+
+
+    .HeaderofHeaderTextMainBox{
+        font-size: 12px;
+    }
+
+
+
+    .Body1{
+        height: 877px;
+    }
+
+
+
+    .Body2{
+        height: 877px;
+    }
+
+
+
+    .Body3{
+        height: 877px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+
+
+   
+    
+
+    .THEWHOLETHING{
+        width: 768px;
+    }
+
+
+
+    .Header{
+        height: 130px;
+        background-position: center;
+ 
+    }
+
+
+
+    .Body1MainBody{
+        height: ;
+        width: 768px;
+        flex-wrap: wrap
+    }
+
+
+ 
+    .Body2MainBody{
+        height: ;
+        width: 768px;
+        flex-wrap: wrap
+    } 
+    
+
+    
+    .Body3MainBody{
+        width: 768px;
+    }
+
+
+    
+    .HeaderofHeaderTextMainBox{
+        margin-left: 130px;
+    }
+
+
+
+    .HeaderofHeaderLogo{
+        width: 126px;
+        height: 67px;
+        margin-top: 25px;
+    }
+
+
+
+    .HeaderofHeaderTextMainBox{
+        font-size: 12px;
+    }
+
+
+
+    .Body1{
+        height: 877px;
+    }
+
+
+
+    .Body2{
+        height: 877px;
+    }
+
+
+
+    .Body3{
+        height: 877px;
+    }
+}
